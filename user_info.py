@@ -18,11 +18,11 @@ headers = {
     "sec-ch-ua-platform": "\"Windows\"",
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
 }
-    
+
+url = "https://app.genezys.xyz/api-prod-user-service/users/connected"    
 
 def get_gnz():
 
-    url = "https://app.genezys.xyz/api-prod-user-service/users/connected"
 
     response = requests.get(url, data=payload, headers=headers, params=querystring)
 
@@ -33,7 +33,6 @@ def get_gnz():
 
 def get_gems():
 
-    url = "https://app.genezys.xyz/api-prod-user-service/users/connected"
 
     response = requests.get(url, data=payload, headers=headers, params=querystring)
 
@@ -44,7 +43,6 @@ def get_gems():
 
 def get_activity_points():
 
-    url = "https://app.genezys.xyz/api-prod-user-service/users/connected"
 
     response = requests.get(url, data=payload, headers=headers, params=querystring)
 
@@ -55,7 +53,6 @@ def get_activity_points():
 
 def get_airdrop():
 
-    url = "https://app.genezys.xyz/api-prod-user-service/users/connected"
 
     response = requests.get(url, data=payload, headers=headers, params=querystring)
 
@@ -65,8 +62,6 @@ def get_airdrop():
     return airdrop
 
 def get_username():
-
-    url = "https://app.genezys.xyz/api-prod-user-service/users/connected"
 
     response = requests.get(url, data=payload, headers=headers, params=querystring)
 
