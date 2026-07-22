@@ -68,3 +68,11 @@ def get_username():
     response_json = response.json()
     username = response_json['data']['pseudo']
     return username
+
+def get_user_id():
+
+    response = requests.get(url, data=payload, headers=headers, params=querystring)
+
+    response_json = response.json()
+    user_id = response_json['data']['id']
+    return user_id
