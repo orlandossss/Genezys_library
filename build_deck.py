@@ -23,7 +23,7 @@ headers = {
 }
 
 
-def build_deck(card_info):
+def build_deck_division(card_info):
     cards_summaries = []
     for card in card_info:
         card_id = card['id']

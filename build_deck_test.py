@@ -25,4 +25,4 @@ if __name__ == "__main__":
             }
         ]
 
-    print(build_deck(deck))
+    print(build_deck_division(deck))
