@@ -1,4 +1,4 @@
-from user_info import * 
+from user import * 
 
 if __name__ == "__main__":
     print("Genezys Token:", get_gnz())

@@ -1,4 +1,4 @@
-from get_cup import *
+from cup import *
 
 if __name__ == "__main__":
     cups_id = get_available_cups_id()

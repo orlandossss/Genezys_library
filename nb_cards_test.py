@@ -1,4 +1,4 @@
-from info_nb_cards import *
+from nb_cards import *
 
 if __name__ == "__main__":
     print("Number of Common Cards:", nb_common_cards())

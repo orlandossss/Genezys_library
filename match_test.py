@@ -1,5 +1,5 @@
 from match import *
-from get_cup import get_available_cups_id
+from cup import get_available_cups_id
 import time
 
 

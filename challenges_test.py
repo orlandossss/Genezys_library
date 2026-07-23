@@ -1,4 +1,4 @@
-from challenges_info import *
+from challenges import *
 
 if __name__ == "__main__":
     challenges_info = get_challenges_info()

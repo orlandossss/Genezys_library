@@ -1,7 +1,7 @@
 import requests
 import os
 from dotenv import load_dotenv
-from user_info import get_user_id
+from user import get_user_id
 load_dotenv()
 token = os.getenv("Genezeys_token")
 
