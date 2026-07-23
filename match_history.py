@@ -34,6 +34,7 @@ def get_match_history(numberof_matches=10):
         detail_match = match['matchSimulation']
         victory = match['userWin']
         opponnent_name = match['adversaryPseudo']
+        opponent_id = match['adversaryId']
         opponent_score = match['adversaryDeck']['scoreDeck']
         user_score = match['userDeck']['scoreDeck']
 
@@ -71,6 +72,7 @@ def get_match_history(numberof_matches=10):
             'victory': victory,
             'opponnent_name': opponnent_name,
             'opponent_score': opponent_score,
+            'opponent_id': opponent_id,
             'user_score': user_score,
             'userdeck': userdeck,
             'opponentdeck': opponentdeck
